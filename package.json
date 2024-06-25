@@ -1,0 +1,17 @@
+{
+  "name": "qbit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build1": "tsc Case1.ts",
+    "build2": "tsc Case2.ts",
+    "case1": "tsc Case1.ts && node Case1.js",
+    "case2": "tsc Case2.ts && node Case2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
